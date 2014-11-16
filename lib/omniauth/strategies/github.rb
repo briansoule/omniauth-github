@@ -10,7 +10,7 @@ module OmniAuth
       }
 
       def request_phase
-        sesssion[:boomerang_token] = params[:token]
+        session[:boomerang_token] = params[:token]
         super
       end
       
